@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['django.lijealso.pt','89.116.229.13']
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
